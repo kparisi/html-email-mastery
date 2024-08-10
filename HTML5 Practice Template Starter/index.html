@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!-- This is a template.-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Email 5 Template Practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<style>
+    body{
+        margin: 0;
+        background-color: #D8DbDb;
+        padding: 20px;
+        font-family: 'Roboto', Arial, sans-serif; /* Google Font, Web Safe, sans-serif */
+        font-size: 18px;
+        color: #565859;
+
+        .wrapper {
+           background-color: #f6faff; 
+           max-width: 700px; /* Email templates are typically 600px. You'll see 640px up to 800px.
+           Template height: up to 3,00px  */
+           margin: 0 auto; /* auto centers the content */
+           box-shadow: 0 0 10px #616e79;
+           border-top: 10px solid #37a28f;
+           border-radius: 5px 5px 10px 10px;
+        }
+
+        .logo {
+            text-align: center;
+            padding: 1%;
+        }
+
+        .logo img {
+            max-width: 250px;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .three-columns {
+            width: 29.3%;
+            padding: 5% 2% 6%;
+            text-align: center;
+            float: left;
+            margin: 15px 0 32px;
+        }
+
+        .three-columns img {
+            max-width: 135px;
+        }
+
+        h2 {
+            font-weight: 700;
+            font-size: 28px;
+            letter-spacing: 1px;
+            margin: 20px 0 8px;
+        }
+
+        p {
+            line-height: 26px;
+            padding-bottom: 15px;
+        }
+
+        .btn {
+            background-color: #37a28f;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 14px;
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            border-radius: 6px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+        }
+
+        .btn:hover {
+            background-color: #3db5a0;
+            color: #fff;
+            transition: .4s;
+        }
+        
+        hr.orange {
+            border: 1px solid #feb658;
+            width: 96%;
+            margin: 15px auto;
+        }
+
+        .two-columns {
+            float: left;
+            width: 46%;
+            padding: 5% 2%;
+            margin: 10px 0 26px;
+        }
+
+        .two-columns h2 {
+            margin: 0px;
+        }
+
+        ul.social {
+            list-style-type: none;
+            text-align: center;
+            padding: 10px;
+            margin: 20px 0 5px;
+            width: 96%
+        }
+
+        ul.social li {
+            display: inline;
+        }
+
+        .social img {
+         max-width: 40px;   
+        }
+
+        .contact {
+            text-align: center;
+            color: #2b9684;
+            font-weight: 400;
+            padding-bottom: 6%;
+        }
+
+        .contact a {
+            color: #2b9684;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            color: #feb658;
+            transition: .2s;
+        }
+
+        @media (max-width: 600px){
+            body {
+                padding: 5px;
+            }
+
+            .banner {
+                margin-bottom: 20px;
+            }
+
+            .three-columns, .two-columns {
+                width: 96%;
+                margin: 0 0 35px;
+            }
+            
+            .three-columns img {
+                max-width: 155px;
+            }
+
+            hr.orange {
+                margin-bottom: 30px;
+            }
+
+            .two-columns:last-of-type {
+                padding-left: 20px;
+                padding-bottom: 30px;
+            }
+        
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="wrapper">
+    <div class="logo">
+        <a href="https://example.com" target="_blank"><img src="./img/logo.png" alt="HTML 5 Logo" title="HTML5 Logo"></a>
+    </div>
+    <a href="https://example.com" target="_blank"><img src="./img/banner.png" alt="banner" title="Banner" class="banner"></a>  
+    <div class="three-columns">
+            <a href="https://example.com" target="_blank"><img src="./img/mouse.png" alt="Mouse" title="Mouse"></a>
+            <h2>Email Development</h2>
+            <p>There are many different email clients to consider when developing your email templates.</p>
+            <div class="button-holder">
+                <a href="https://example.com" target="_blank" class="btn">Learn More</a>
+            </div>
+    </div>
+        <div class="three-columns">
+            <a href="https://example.com" target="_blank"><img src="./img/phone.png" alt="Phone" title="Phone"></a>
+            <h2>Mobile Friendly</h2>
+            <p>Most emails are opened on mobile devices today, so make sure your design is mobile friendly.</p>
+            <div class="button-holder">
+                <a href="https://example.com" target="_blank" class="btn">HTML Email</a>
+            </div>
+    </div>
+    <div class="three-columns">
+        <a href="https://example.com" target="_blank"><img src="./img/computer.png" alt="Desktop" title="Desktop"></a>
+        <h2>Desktop Clients</h2>
+        <p>For desktop email clients like Outlook, we'll need to pay special attention once we use tables.</p>
+        <div class="button-holder">
+            <a href="https://example.com" target="_blank" class="btn">Development</a>
+        </div>
+    </div>
+   
+    <hr class="orange">
+
+    <div class="two-columns">
+        <a href="https://example.com" target="_blank"><img src="./img/pie-chart.png" alt="Pie Chart" title="Pie Chart"></a>
+    </div>
+    <div class="two-columns">
+        <h2>Latest Email Design</h2>
+        <p>There are a lot of email clients to consider when choosing a design width but 600px is the most common.</p>
+        <div class="button-holder">
+            <a href="https://example.com" target="_blank" class="btn">Email Design Course</a>
+        </div>
+    </div>
+    <hr class="orange">
+    <ul class="social">
+        <li><a href="https://example.com"></a><img src="./img/facebook.png" alt="Facebook" title="Facebook"></li>
+        <li><a href="https://example.com"></a><img src="./img/twitter.png" alt="Twitter" title="Twitter"></li>
+        <li><a href="https://example.com"></a><img src="./img/youtube.png" alt="Youtube" title="Youtube"></li>
+        <li><a href="https://example.com"></a><img src="./img/instagram.png" alt="Instagram" title="Instagram"></li>
+        <li><a href="https://example.com"></a><img src="./img/linkedin.png" alt="Linkedin" title="Linkedin"></li>
+        <p class="contact">
+            <a href="https://example.com" target="_blank">www.example.com</a><br>
+            <a href="tel:+18005555555">1-800-555-5555</a><br>
+            <a href="mailto:myemail@example.com">myemeail@example.com</a><br>
+            1234 Street - City - State 99999<br>
+            <a href="https://example.com" target="_blank">Unsubscribe</a> |
+            <a href="https://example.com" target="_blank">Preferences</a><br><br>
+        </p>
+    </ul> 
+</div>
+<!--End of wrapper-->
+</body>
+</html>
+
+
+<!-- https://w3newbie.imgbb.com/
+https://i.ibb.co/JtckNqn/logo.png
+https://i.ibb.co/zQ558kP/banner.png
+
+https://i.ibb.co/tHQy3gL/mouse.png
+https://i.ibb.co/42MJn1V/phone.png
+https://i.ibb.co/RD0sR6V/computer.png
+https://i.ibb.co/NKdYy92/pie-chart.png
+
+https://i.ibb.co/5cp6Gtb/facebook.png
+https://i.ibb.co/m4PgXq6/twitter.png
+https://i.ibb.co/Ttf0YmH/youtube.png
+https://i.ibb.co/8brZJJt/instagram.png
+https://i.ibb.co/3zn6mW3/linkedin.png
+-->
