@@ -34,8 +34,7 @@
       }
       a {
          text-decoration: none;
-         color: #3d3d3d;
-         font-size: 16px;
+         color: #000;
       }
       .content {
          line-height: 20px;
@@ -58,6 +57,13 @@
          text-decoration: inherit !important;
       }
 
+      span.Object {
+         color: inherit !important;
+      }
+      span.Object-hover {
+         color: inherit !important;
+         text-decoration: none !important;
+      }
       @media screen and (max-width: 599.98px) {
 
       }
@@ -112,8 +118,9 @@
             <tr>
                <td style="padding=0;">
                   <table width="100%" style="border-spacing: 0;" role="presentation">
+
                    <tr>
-                     <td height="8" style="background-color: #d5f3f4;">
+                     <td style="padding: 4px; background-color: #d5f3f4;">
                         <div style="font-size: 0; mso-line-height-rule: exactly; line-height: 0; display: none; mso-hide: all;">&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;</div>
                      </td>
                    </tr>
@@ -124,7 +131,6 @@
                         </a>
                      </td>
                    </tr>
-
                    <tr>
                      <td style="padding: 0 0 20px 0;">
                         <a href="https://example.com/1" target="_blank">
@@ -135,11 +141,34 @@
                   </table>
                </td>
             </tr>
-            
+            <tr>
+               <td style="padding: 5px 25px 5px 25px; text-align: center; font-size: 16px;">
+                  <h1 style="font-size: 25px;">Forgot Your Password?</h1>
+                  <h2 style="font-size: 20px;">No Problem!</h2>
+                  <p style="font-size: 16px; line-height: 20px;">Hi, {{contact.FIRSTNAME}}!</p>
+                  <p style="font-size: 16px; line-height: 20px;">There was a request to change your password.</p>
+                  <p style="font-size: 16px; line-height: 20px;">If you did not make this request, just ignore this email. Otherwise, please click the button below to change your password:</p>
+               </td>
+            </tr>
+            <tr>
+               <td style="padding:10px 0px 30px 0px;text-align: center;">
+                  <a href="https://example.com/3" target="_blank">
+                     <img src="https://mcusercontent.com/474f5b70c3b324277323d4c42/images/0f63e7e6-d834-2e03-a0f8-17b043f7763e.png" alt="Reset Your Password" title="Reset Your Password" width="160" style="border:0;">
+                  </a>
+               </td>
+            </tr>
 
-
+            <tr>
+               <td style="padding: 20px 0px 30px 0px; text-align: center; background-color: #d5f3f4;">
+                  <p style="font-size: 16px; color: #000; ">
+                     <a href="https://www.example.com/4" style="font-size: 16px; color: #000; text-decoration:none;color:inherit;">www.w3newbie.com</a>   </p>
+                     <p style="font-size: 16px; padding: 5px 0 5px; color: #000;">123&#8203; Street, City, State 55555</p>
+                     <p style="font-size: 14px; color: #000">
+                        <a href="www.example.com/5" style="color: black; text-decoration: none; color: inherit;">Subscriber Preferences</a>
+                     </p>
+               </td>
+            </tr>
          </table>
-
          <!--[if mso]>
             </td>
             </tr>
@@ -151,20 +180,3 @@
 
 </body>
 </html>
-
-
-<!-- Image Links:
-https://i.ibb.co/1fN4jNV/w3newbie.png
-https://mcusercontent.com/474f5b70c3b324277323d4c42/images/8c6d35c2-2b66-5af9-d40f-1eec9d2dcaf3.png
-https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/basic-template/w3newbie.png
-
-https://i.ibb.co/djwMPKK/lock-banner.jpg
-https://mcusercontent.com/474f5b70c3b324277323d4c42/images/80657041-e007-7e23-37ed-2e10ac4f5cac.jpg
-https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/basic-template/lock-banner.jpg
-
-https://i.ibb.co/84RF9Vc/button.png
-https://mcusercontent.com/474f5b70c3b324277323d4c42/images/0f63e7e6-d834-2e03-a0f8-17b043f7763e.png
-https://raw.githubusercontent.com/w3newbie/html-email-mastery-images/main/basic-template/button.png
--->
-
-<!-- Icon: <a href="https://www.flaticon.com/free-icons/password" title="password icons">Password icons created by Freepik - Flaticon</a> -->
